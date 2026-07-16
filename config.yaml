@@ -1,0 +1,14 @@
+# Default analysis configuration — CLI flags override these values.
+tickers: [AAPL, MSFT, NVDA, JPM, TLT, GLD]
+benchmark: SPY
+start: "2020-01-01"
+end: "2025-12-31"
+rebalance: M          # M, Q, Y, or none (buy-and-hold)
+risk_free_rate: 0.04  # annual
+weights:              # omit for equal weight
+  AAPL: 0.20
+  MSFT: 0.20
+  NVDA: 0.15
+  JPM: 0.15
+  TLT: 0.20
+  GLD: 0.10
